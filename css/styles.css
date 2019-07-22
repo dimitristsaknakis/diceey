@@ -1,0 +1,63 @@
+/* Colors used are from "https://colorhunt.co/palette/145355" */
+
+body {
+    background-color: #4592af;
+}
+
+h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 7rem;
+    color: #e3c4a8;
+}
+
+p {
+    font-size: 2rem;
+    color: #33313b;
+    font-family: "Indie Flower", cursive;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 6%;
+    margin-bottom: 5%;
+    color: #000000;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e3c4a8;
+    font-family: Arial, sans-serif;
+}
+
+footer a:hover {
+    color: #33313b;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+.winner {
+    font-weight: bold;
+    color: #e3c4a8;
+    font-size: 2.1rem;
+}
+
+.draw {
+    color: darkgray;
+    text-decoration: line-through;
+}
